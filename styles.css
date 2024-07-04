@@ -3,10 +3,12 @@ main {
 	background-color: lightgrey;
 	width:50%;
 	height: 400px;
+	padding: 8px 8px;
 	margin: auto;
 	align-content: center;
 	align-items: center;
 	border-radius: 4px;
+	box-shadow: 8px 10px 7px 3px;
 	
 }
 h1, p, input{
@@ -15,12 +17,20 @@ h1, p, input{
 img{
 	display: block;
 	margin: auto;
+	width: 300px;
 	border-radius: 8px;
 }
 input{
 	display: block;
 	width: 89px;
 	height: 40px;
+	border:0;
 	border-radius: 10px;
+	background-color: lightpink;
+	color:darkred;
+	padding: 10px 10px;
 	margin: auto;
+}
+input:hover{
+	background-color:lightblue;
 }
